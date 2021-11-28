@@ -1,0 +1,25 @@
+.transaction {
+  margin-top: 20px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e5e5e5;;
+}
+
+.thead {
+  height: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #46c4d7;
+}
+
+.tbody {
+  font-size: 12px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.tbody:nth-child(2n - 1) {
+  background-color: #e0f6f6;
+}
