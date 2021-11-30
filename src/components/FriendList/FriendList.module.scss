@@ -1,32 +1,32 @@
-.list{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+.list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.item{
-    display: flex;
-    align-items: center;
-    border-radius: 4px;
-    border:solid 2px cadetblue;
-    box-shadow:0px 1px 1px rgb(189, 240, 241),
-    0px 4px 4px rgb(209, 242, 243),1px 4px 6px rgb(224, 246, 247);
-    padding: 10px;
-    &:not(:last-child){
-        margin-bottom: 10px;
-    }
-}
-
-.label{
-    border-radius: 50%;
-    display: flex;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+.item {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: solid 2px cadetblue;
+  box-shadow: 0px 1px 1px rgb(189, 240, 241), 0px 4px 4px rgb(209, 242, 243),
+    1px 4px 6px rgb(224, 246, 247);
+  padding: 10px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
-.name{
- margin-left: 10px;
+.label {
+  border-radius: 50%;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  margin-left: 10px;
 }

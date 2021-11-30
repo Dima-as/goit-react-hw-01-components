@@ -1,13 +1,18 @@
-ul,li{
+ul,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-h1,h2,h3,h4,p{
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
   padding: 0;
 }
-img{
+img {
   display: block;
   height: auto;
 }
